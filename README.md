@@ -36,7 +36,7 @@ The goal is to transform raw transaction logs into a clean, interactive reportin
 
 ## Dashboard Overview
 
-An interactive Power BI report spanning 2009–mid-2012, organized into four pages for layered insights and effortless exploration.
+An interactive Power BI report covering the period from December 2009 to December 2011, organized across four pages to deliver layered insights and seamless exploration.
 
 ### **Page 1 – Executive Summary**
 
@@ -62,9 +62,8 @@ Enables cascading filters and flowchart breakdown:
 ### **Page 4 – Geographic Distribution**
 
 Visualizes revenue across locations:
-- Interactive choropleth map and sized-dot layer  
-- Treemap summarizing regional revenue shares  
-- Combined map/table filters for dynamic exploration
+- Bubble Map displaying each location’s revenue as proportional-sized bubbles  
+- Tree Map summarizing regional revenue shares
 
 ## Key Features
 
@@ -76,14 +75,13 @@ Visualizes revenue across locations:
 - SKU-level revenue mix comparison to highlight shifts in product performance  
 - Cascading slicers (Year, Quarter, Month, Day) with a clear-all button for precise drill-down  
 - Flowchart-style revenue decomposition from region through year, quarter, month to day granularity  
-- Interactive choropleth map and proportional-dot layer showing geographic revenue distribution  
+- Bubble Map displaying each location’s revenue as proportional-sized bubbles
 - Treemap view for at-a-glance regional revenue shares  
-- Combined map and table filters for seamless region-centric analysis
 
 ## Tools & Technologies
 
-- Power BI Desktop (Data prep: Power Query; visuals & measures: DAX)
-- Microsoft Excel 2021 (create a log of issues in the dataset; Power Query to fill blank descriptions)
+- Power BI Desktop (Data preparation: Power Query, visuals & measures: DAX)
+- Microsoft Excel 2021: create an issue log to track dataset anomalies, and use Power Query to auto-fill blank descriptions.
 
 ## File Structure
 
@@ -95,10 +93,11 @@ Visualizes revenue across locations:
 ├── images/
 │   ├── dashboard/
 │   │   ├── Dashboard.png
-│   │   ├── 2010 vs 2011 Revenue.png
-│   │   └── Regional Revenue Trends.png
+│   │   ├── 2010_vs_2011_Revenue.png
+│   │   └── Regional_Revenue_Trends.png
+│   │   └── Map.png
 │   └── issues/
-│       └── Issues Log.png
+│       └── Issues_Log.png
 ├── pbix/
 │   └── Online_Retail.pbix
 └── README.md
