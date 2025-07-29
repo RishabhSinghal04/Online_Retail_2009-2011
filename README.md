@@ -1,4 +1,4 @@
-# Online Retail II Sales Analysis Dashboard
+# Online Retail 2009-2011
 
 ## Introduction
 
@@ -26,7 +26,9 @@ The goal is to transform raw transaction logs into a clean, interactive reportin
 - Merged two sheets (2009–2010, 2010–2011) into a single Transactions table  
 - Filtered returns (negative Quantity and negative Price) and cancellations (InvoiceNo starts with “C”) 
 - Handled missing CustomerIDs and blank Descriptions (flagged or removed)  
-- Standardized Country/Region names  
+- Standardized Country/Region names 
+
+![Report_Page_1](images/issues/Issues_Log.png)
 
 ## Data Model
 
@@ -45,6 +47,8 @@ A bird’s-eye view of performance with:
 - Monthly revenue trend with year-over-year comparison and moving average  
 - Top 5 customers and Top 5 SKUs bar charts with Pareto overlays  
 
+![Report_Page_1](images/dashboard/Dashboard.png)
+
 ### **Page 2 – Year-over-Year Analysis**
 
 Focused on comparative dynamics:
@@ -53,17 +57,23 @@ Focused on comparative dynamics:
 - Quantity vs invoice count shifts  
 - SKU-level revenue mix evolution  
 
+![Report Page 2](images/dashboard/2010_vs_2011_Revenue.png)
+
 ### **Page 3 – Regional Drill-Down**
 
 Enables cascading filters and flowchart breakdown:
 - Slicers for Year, Quarter, Month, Day and clear-all button  
 - Stepwise decomposition of total revenue by region → time → day  
 
+![Report Page 3](images/dashboard/Regional_Revenue_Trends.png)
+
 ### **Page 4 – Geographic Distribution**
 
 Visualizes revenue across locations:
 - Bubble Map displaying each location’s revenue as proportional-sized bubbles  
 - Tree Map summarizing regional revenue shares
+
+![Report Page 4](images/dashboard/Map.png)
 
 ## Key Features
 
@@ -103,30 +113,9 @@ Visualizes revenue across locations:
 └── README.md
 ```
 
-## How to Use
+## Getting Started
 
 1. Clone the repo and open the `.pbix` file in Power BI Desktop.  
 2. Point the source in Power Query to `data/Filled_Blank_Desc.xlsx`.  
 3. Refresh to load and transform.  
 4. Explore the dashboard pages, slicers, and drill-through details.
-
-## Issues
-![Report_Page_1](images/issues/Issues_Log.png)
-
-## Dashboard
-
-- Page 1 – Executive Summary
-
-![Report_Page_1](images/dashboard/Dashboard.png)
-
-- Page 2 – 2010 vs 2011 Analysis
-
-![Report_Page_2](images/dashboard/2010_vs_2011_Revenue.png)
-
-- Page 3 - Regional Drill-Down
-
-![Report_Page_1](images/dashboard/Regional_Revenue_Trends.png)
-
-- Page 4 - Geographic Distribution
-
-![Report_Page_1](images/dashboard/Map.png)
