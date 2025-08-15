@@ -6,7 +6,7 @@ This project presents an interactive **Power BI dashboard** built on the **“On
 
 Combining data quality checks with multi‑page visual reports, it delivers insights into **sales trends**, **product performance**, and **regional revenue patterns**, enabling informed, data‑driven decisions.
 
-![Report Pages](images\report_pages.png)
+![Report Pages](images/report_pages.png)
 
 
 ## Problem Statement
