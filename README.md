@@ -4,9 +4,9 @@
 - [Introduction](#Introduction)
 - [Problem Statement](#Problem-Statement)
 - [Dataset](#Dataset)
-- [Data Cleaning & Preparation](#Data-Cleaning-and-Preparation)
+- [Data Cleaning and Preparation](#Data-Cleaning-and-Preparation)
 - [Data Model](#Data-Model)
-- [Dashboard Overview](#Dashboard-Overview)
+- [Report Overview](#Report-Overview)
 - [Results](#Results)
 - [Key Features](#Key-Features)
 - [Tools & Technologies](#Tools-and-Technologies)
@@ -59,7 +59,7 @@ The goal is to transform raw transaction logs into a clean, interactive reportin
 - Relationship: Dim_Date[Date] → Year_2009_2011[InvoiceDate]
 
 
-## Dashboard Overview
+## Report Overview
 
 An interactive Power BI report covering the period from December 2009 to December 2011, organized across four pages to deliver layered insights and seamless exploration.
 
