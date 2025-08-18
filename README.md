@@ -9,14 +9,14 @@
 - [Report Overview](#Report-Overview)
 - [Results](#Results)
 - [Key Features](#Key-Features)
-- [Tools & Technologies](#Tools-and-Technologies)
+- [Tools and Technologies](#Tools-and-Technologies)
 - [File Structure](#File-Structure)
 - [Getting Started](#Getting-Started)
 
 
 ## Introduction
 
-This project presents an interactive **Power BI dashboard** built on the **“Online Retail II” dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II). It analyzes **1,067,371 transactions** from a **UK‑based online retailer** between **Dec 2009 and Dec 2011**.  
+This project presents an interactive **Power BI Report** built on the **“Online Retail II” dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II). It analyzes **1,067,371 transactions** from a **UK‑based online retailer** between **Dec 2009 and Dec 2011**.  
 
 Combining data quality checks with multi‑page visual reports, it delivers insights into **sales trends**, **product performance**, and **regional revenue patterns**, enabling informed, data‑driven decisions.
 
@@ -106,7 +106,7 @@ This page empowers layered, drill‑down analysis through intuitive, cascading f
 
 ## Results
 
-The Power BI dashboard uncovered several key insights from the Online Retail II dataset (Dec 2009 – Dec 2011):
+The Power BI report uncovered several key insights from the Online Retail II dataset (Dec 2009 – Dec 2011):
 
 - **Revenue Decline:**  
   Total revenue in **2011** fell by **£76.10K** compared to 2010. The sharpest decline occurred in **December 2011**, with a drop of nearly **£240K**, based on figures available up to **December 9, 2011**.
@@ -161,7 +161,7 @@ These findings highlight shifting regional dynamics, seasonal buying patterns, a
 │   │   ├── executive_summary.png
 │   │   ├── revenue_2010_vs_2011.png
 │   │   └── regional_revenue_trends.png
-│   │   └── map.png
+│   │   └── geographic_revenue_split.png
 │   └── issues/
 │       └── Issues_Log.png
 ├── pbix/
@@ -174,4 +174,4 @@ These findings highlight shifting regional dynamics, seasonal buying patterns, a
 1. Clone the repo and open the `.pbix` file in Power BI Desktop.  
 2. Point the source in Power Query to `data/Filled_Blank_Desc.xlsx`.  
 3. Refresh to load and transform.  
-4. Explore the dashboard pages, slicers, and drill-through details.
+4. Explore the report pages, slicers, and drill-through details.
