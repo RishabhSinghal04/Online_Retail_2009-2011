@@ -142,7 +142,7 @@ These findings highlight shifting regional dynamics, seasonal buying patterns, a
 - Cascading slicers (Year, Quarter, Month, Day) with a clear-all button for precise drill-down  
 - Flowchart-style revenue decomposition from region through year, quarter, month to day granularity  
 - Bubble Map displaying each location’s revenue as proportional-sized bubbles
-- Treemap view for at-a-glance regional revenue shares  
+- Tree Map view for at-a-glance regional revenue shares  
 
 ## Tools and Technologies
 
