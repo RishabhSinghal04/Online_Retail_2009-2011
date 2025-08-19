@@ -25,12 +25,12 @@ Combining data quality checks with multi‑page visual reports, it delivers insi
 
 ## Problem Statement
 
-The goal is to transform raw transaction logs into a clean, interactive reporting tool that enables:
-- Year-over-Year performance tracking  
-- Regional and product hierarchy analysis  
-- Identification of top customers and SKUs  
-- Detailed drill-through to transaction lines  
-- Data-driven decisions on inventory, and customer retention
+The current analysis framework requires:
+- Comprehensive year-over-year performance tracking to assess business growth and trends
+- Detailed evaluation of regional and product hierarchy performance
+- Comparative revenue analysis between years 2010 and 2011 to uncover key variances and growth drivers
+- Identification of top-performing customers and high-value SKUs for targeted strategies
+- Capability for granular drill-through to individual transaction-level details
 
 
 ## Dataset
@@ -38,15 +38,15 @@ The goal is to transform raw transaction logs into a clean, interactive reportin
 - Source: **“Online Retail II” dataset** from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
 - Span: Dec 1, 2009 – Dec 9, 2011  
 - Records: 1,067,371 invoice lines  
-- Key fields: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
+- Key fields: Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, Country
 
 
 ## Data Cleaning and Preparation
 
 - Filled blank descriptions using Power Query
 - Merged two sheets (2009–2010, 2010–2011) into a single Transactions table  
-- Filtered returns (negative Quantity and negative Price) and cancellations (InvoiceNo starts with “C”) 
-- Handled missing CustomerIDs and blank Descriptions (flagged or removed)  
+- Filtered returns (negative Quantity and negative Price) and cancellations (Invoice starts with “C”) 
+- Handled missing Customer IDs and blank Descriptions (flagged or removed)  
 - Standardized Country/Region names 
 
 ![Report_Page_1](images/issues/Issues_Log.png)
@@ -164,7 +164,7 @@ These findings highlight shifting regional dynamics, seasonal buying patterns, a
 │   │   └── geographic_revenue_split.png
 │   └── issues/
 │       └── Issues_Log.png
-├── pbix/
+├── report/
 │   └── Online_Retail.pbix
 └── README.md
 ```
